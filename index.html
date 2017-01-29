@@ -1,47 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us">
-	<head>
-		<title>Marina Bain Student Bio</title>
-		<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-	</head>
+<head>
+	<title>Marina Bain Student Bio</title>
+	<link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+</head>
 
-	<body>
-		<section id="head">
-			<div id="Name">
-				<h1>Marina Bain</h1>
-			</div>
-
-			<div id="Navigation">
-				<ul>
-					<li>About</li>
-					<li>Portfolio</li>
-					<li>Contact</li>
-				</ul>
-			</div>
-		</section>
-		
-		<!--About Me, with bio picture and introduction-->	
-		<div id="about-me">
+<body>
+	<div class="header"></div>
+	<div class="wrapper">	
+		<h1 id="name">Marina Bain</h1>
+		<nav class="navhead">
+			<a id="about" href="index.html">About</a>
+			<a id="portfolio" href="portfolio.html">Portfolio</a>
+			<a id="contact" href="contact.html">Contact</a>
+		</nav>		
+		<div class="aboutme"> <!--About Me, with bio picture and introduction-->	
 			<h2>About Me</h2>
-			<br>
-
-			<img id="bio-img" src="assets/images/bioimg.jpg" alt="Marina Bain">
-			<p>A <a href="https://en.wikipedia.org/wiki/Marina">marina</a> (from Spanish [maˈɾina], Portuguese [maˈɾinɐ] and Italian [maˈriːna]: marina, "coast" or "shore") is a dock or basin with moorings and supplies for yachts and small boats. A marina differs from a port in that a marina does not handle large passenger ships or cargo from freighters.</p>
-		</div>
-
-		<!--Connect with me, with links to social media-->
-		<div id="connect">
-			<h2>Connect with Me</h2>
-				<a href="https://github.com/mjbain10"><img class="icon" src="assets/images/git.png" alt="github icon"></a>
-				<a href="https://www.linkedin.com/in/marinabain"><img class="icon" src="assets/images/linkedin.png" alt="LinkedIn icon"></a>
-				<!-- Add Link to SO -->
-				<a href="#"><img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow Icon"></a>
+			<img id="bioimg" src="assets/images/bioimg.jpg" alt="Marina Bain">
+			<p>A <a href="https://en.wikipedia.org/wiki/Marina" target="blank">marina</a> (from Spanish [maˈɾina], Portuguese [maˈɾinɐ] and Italian [maˈriːna]: marina, "coast" or "shore") is a dock or basin with moorings and supplies for yachts and small boats. Marinas may be located along the banks of rivers connecting to lakes or seas and may be inland. </p>
+			<p>The name Marina is of Latin origin, and is used in more than one countries and different languages of the world, especially Bulgarian speaking countries, English speaking countries, German speaking countries, Greek speaking countries among others.</p>
 		</div>
 		
-		<!--Footer with copyright-->
-		<footer>
-			<p id="Copyright">@Copyright 2016 Marina Bain</p>
-		</footer>
+		<div class="connect"> <!--Connect with me, with links to social media-->
+			<h2>Connect with Me</h2>
+			<nav class="navconnect">
+				<a href="https://github.com/mjbain10" target="blank"><img class="icon" src="assets/images/git.png" alt="github icon"></a>
+				<a href="https://www.linkedin.com/in/marinabain" target="blank"><img class="icon" src="assets/images/linkedin.png" alt="LinkedIn icon"></a>
+				<!-- Add Link to SO -->
+				<a href="#" target="blank"><img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow Icon"></a>
+			</nav>
+		</div>
+	</div>
+
+	<footer> <!--Footer with copyright-->
+		<p>@Copyright 2016 Marina Bain</p>
+	</footer>
 
 	</body>
 </html>

@@ -1,0 +1,145 @@
+body {
+	background-image: url(../images/background.png);
+	margin: 0px;
+}
+
+h1, h2 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 30px;
+}
+
+p{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 19px;
+	line-height: 2em;
+}
+
+a {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 2em;
+}
+
+/**Begin header and nav**/
+.header {
+	background-color: white;
+	width: 100%;
+	height: 90px;
+	margin: 0px;
+	border-bottom: solid 4px #cccccc;
+	position: absolute;
+}
+
+.wrapper {
+	width: 960px;
+	overflow: auto;
+	margin: 0px 155px;
+}
+
+#name {
+	float: left;
+	color: white;
+	background-color: #4aaaa5;
+	margin: 0;
+	height: 40px;
+	padding: 25px 37px;
+	position: absolute;
+	top: 0px;
+	left: 155px;
+}
+
+.navhead {
+	position: absolute;
+	top: 30px;
+	left: 865px;
+}
+
+#about {
+	padding: 0px 16px 0px 0px;
+	border-right: 1px solid #cccccc;
+}
+
+#portfolio {
+	padding: 0px 16px;
+	border-right: 1px solid #cccccc;
+}
+
+#contact {
+	padding: 0px 0px 0px 16px;
+}
+
+/**Begin About Me - index.html**/
+.aboutme {
+	width: 650px;
+	margin: 134px 0px 40px 0px;
+	background-color: white;
+	border: 2px solid #dddddd;
+	float: left;
+	overflow:auto;
+}
+
+.aboutme h2 {
+	line-height: 3em;
+	margin: 15px 32px 10px 32px;
+	border-bottom: solid 4px #cccccc;
+}
+
+#bioimg {
+	height: 205px;
+	width: auto;
+	float: left;
+	margin: 15px 25px 0px 32px;
+}
+
+.aboutme p {
+	margin: 15px 32px 15px 32px;
+}
+
+/**Begin Connect with Me - index.html**/
+.connect {
+	margin: 134px 0px 40px 45px;
+	background-color: white;
+	border: 2px solid #dddddd;
+	float: right;
+	overflow: auto;
+	padding: 25px;
+}
+
+.connect h2 {
+	font-size: 23px;
+	margin-top: 0px;
+}
+
+.navconnect {
+	padding-top: 25px;
+	border-top: 1px solid #cccccc;
+}
+
+.icon {
+	height: 60px;
+	width: 60px;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+
+/**Begin footer**/
+footer {
+	clear: both;
+	width: 100%;
+	background-color: #666666;
+	border-top: 8px solid #4aaaa5;
+	overflow: auto;
+	padding: 35px 0px;
+}
+
+footer p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: silver;
+}
