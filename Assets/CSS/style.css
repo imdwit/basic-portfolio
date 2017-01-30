@@ -73,8 +73,8 @@ a {
 	padding: 0px 0px 0px 16px;
 }
 
-/*Begin About Me - index.html*/
-.aboutme {
+/*Begin Main Content*/
+.maincontent {
 	width: 650px;
 	margin: 134px 0px 40px 0px;
 	background-color: white;
@@ -83,7 +83,7 @@ a {
 	overflow:auto;
 }
 
-.aboutme h2 {
+.maincontent h2 {
 	line-height: 3em;
 	margin: 15px 32px 10px 32px;
 	border-bottom: solid 4px #cccccc;
@@ -96,13 +96,33 @@ a {
 	margin: 15px 25px 0px 32px;
 }
 
-.aboutme p {
+.maincontent p {
 	margin: 15px 32px 15px 32px;
+}
+
+/*Begin Portfolio link images*/
+.portcolumn1 {
+	float: left;
+	width: 325px;
+}
+
+.portcolumn2 {
+	float: right;
+	width: 325px;
+}
+
+.portleft {
+	margin: 44px 22px 15px 30px;
+}
+
+.portright {
+	margin: 44px 30px 15px 22px;
 }
 
 /*Begin Sidebar*/
 .connect {
 	margin-top: 134px;
+	margin-bottom: 40px;
 	background-color: white;
 	border: 2px solid #dddddd;
 	float: right;
