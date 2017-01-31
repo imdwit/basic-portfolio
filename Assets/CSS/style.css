@@ -35,12 +35,6 @@ a {
 	position: absolute;
 }
 
-.wrapper {
-	width: 960px;
-	overflow: auto;
-	margin: 0px 155px;
-}
-
 #name {
 	float: left;
 	color: white;
@@ -49,12 +43,12 @@ a {
 	height: 40px;
 	padding: 25px 37px;
 	position: absolute;
-	top: 0px;
+	bottom: 0px;
 	left: 155px;
 }
 
 .navhead {
-	position: absolute;
+	position: relative;
 	top: 30px;
 	left: 865px;
 }
@@ -71,6 +65,12 @@ a {
 
 #contact {
 	padding: 0px 0px 0px 16px;
+}
+
+.wrapper {
+	width: 960px;
+	overflow: auto;
+	margin: 0px 155px;
 }
 
 /*Begin Main Content*/
