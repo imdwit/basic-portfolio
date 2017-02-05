@@ -91,6 +91,7 @@ a {
 	font-weight: bold;
 }
 
+/*Begin About Me*/
 #bioimg {
 	height: 205px;
 	width: auto;
@@ -102,7 +103,7 @@ a {
 	margin: 15px 32px 15px 32px;
 }
 
-/*Begin Portfolio link images*/
+/*Begin Portfolio*/
 .portcolumn1 {
 	float: left;
 	width: 325px;
@@ -155,7 +156,33 @@ a {
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
-/*Begin Sidebar*/
+/*Begin Contact Form*/
+form {
+	margin: 30px 32px 30px 32px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+textarea, input[type=text] {
+	width: 570px;
+	padding: 8px;
+	margin: 10px 0px 15px 0px;
+	color: #777777;
+}
+
+.fmessage {
+	height: 200px;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 16px;
+	padding: 12px 30px;
+	border-style: none;
+}
+
+/*Begin Connect Sidebar*/
 .connect {
 	margin-top: 134px;
 	margin-bottom: 40px;
@@ -185,7 +212,7 @@ a {
 	margin-right: 2.5px;
 }
 
-/*Begin Footer*/
+/*Begin Sticky Footer*/
 footer {
 	clear: both;
 	width: 100%;
@@ -205,18 +232,22 @@ footer p {
 * {
     margin: 0;
 }
+
 html, body {
     height: 100%;
 }
+
 .sticky-wrapper {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -118px; 
 }
+
 .sticky-wrapper:after {
   content: "";
   display: block;
 }
+
 footer, .sticky-wrapper:after {
   /* .push must be the same height as footer */
   height: 118px; 
