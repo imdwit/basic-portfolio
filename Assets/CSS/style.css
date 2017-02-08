@@ -27,12 +27,23 @@ a {
 
 /*Begin Header with Navigation*/
 .header {
-	background-color: white;
-	width: 100%;
+
+  background: white;
 	height: 90px;
 	margin: 0px;
 	border-bottom: solid 4px #cccccc;
-	position: absolute;
+  overflow: auto;
+
+}
+
+.container {
+max-width: 90%;
+margin: 0 auto;
+}
+
+.navwrap {
+  outline: 1px solid red;
+  	background-color: white;
 }
 
 #name {
@@ -40,18 +51,14 @@ a {
 	color: white;
 	background-color: #4aaaa5;
 	margin: 0;
-	height: 40px;
-	padding: 25px 37px;
-	position: absolute;
-	bottom: 0px;
-	left: 155px;
+	padding: 30px 37px;
+	float: left;
 	font-weight: bold;
 }
 
 .navhead {
-	position: relative;
-	top: 30px;
-	left: 865px;
+	float: right;
+  padding: 30px 37px;
 }
 
 #about {
@@ -71,7 +78,7 @@ a {
 .wrapper {
 	width: 960px;
 	overflow: auto;
-	margin: 0px 155px;
+  margin: 0 auto;
 }
 
 /*Begin Main Content*/
@@ -118,12 +125,12 @@ a {
 
 .portleft {
 	margin: 44px 22px 15px 30px;
-	
+
 }
 
 .portright {
 	margin: 44px 30px 15px 22px;
-	
+
 }
 
 .portlink {
@@ -240,7 +247,6 @@ html, body {
 .sticky-wrapper {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -118px; 
 }
 
 .sticky-wrapper:after {
@@ -250,5 +256,5 @@ html, body {
 
 footer, .sticky-wrapper:after {
   /* .push must be the same height as footer */
-  height: 118px; 
+  height: 118px;
 }
